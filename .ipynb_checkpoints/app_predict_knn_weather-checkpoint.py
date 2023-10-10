@@ -10,7 +10,7 @@ import pickle
 
 
 # Load model
-with open('SVM_weather.pkl', 'rb') as file:
+with open('knn_weather.pkl', 'rb') as file:
     model, weather_encoder = pickle.load(file)
 
 # Streamlit app
